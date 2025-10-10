@@ -1,4 +1,4 @@
-# 🚀 Portfolio Website - Lê Huy Hoàng
+# 🚀 Website Portfolio - Lê Huy Hoàng
 
 <div align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
@@ -8,335 +8,335 @@
 </div>
 
 <div align="center">
-  <h3>🎯 Developer & AI Researcher Portfolio</h3>
-  <p>A modern, responsive portfolio website showcasing skills, projects, and professional journey in technology and AI development.</p>
+  <h3>🎯 Portfolio Developer & AI Researcher</h3>
+  <p>Website portfolio hiện đại, responsive thể hiện kỹ năng, dự án và hành trình chuyên nghiệp trong lĩnh vực công nghệ và phát triển AI.</p>
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 📋 Mục lục
 
-- [✨ Features](#-features)
-- [🛠️ Technologies Used](#️-technologies-used)
-- [📁 Project Structure](#-project-structure)
-- [🚀 Getting Started](#-getting-started)
-- [📱 Pages Overview](#-pages-overview)
-- [🎨 Design Features](#-design-features)
-- [📊 Responsive Design](#-responsive-design)
-- [🔧 Customization](#-customization)
-- [📞 Contact Information](#-contact-information)
-- [📄 License](#-license)
-
----
-
-## ✨ Features
-
-### 🌟 Core Features
-- **Responsive Design** - Works perfectly on desktop, tablet, and mobile
-- **Modern UI/UX** - Clean, professional design with smooth animations
-- **Multi-page Navigation** - Organized content across multiple pages
-- **Interactive Elements** - Hover effects, smooth scrolling, and dynamic content
-- **Contact Form** - Functional contact form with validation
-- **Social Media Integration** - Links to GitHub, Facebook, Email, and YouTube
-
-### 🎯 Professional Sections
-- **Personal Introduction** - Hero section with professional overview
-- **Skills Showcase** - Interactive skill bars and technology categories
-- **Project Portfolio** - Detailed project cards with live demos and source code
-- **Career Timeline** - Professional journey and milestones
-- **Personal Interests** - Hobbies and personal life insights
-- **Contact Information** - Multiple ways to get in touch
+- [✨ Tính năng](#-tính-năng)
+- [🛠️ Công nghệ sử dụng](#️-công-nghệ-sử-dụng)
+- [📁 Cấu trúc dự án](#-cấu-trúc-dự-án)
+- [🚀 Bắt đầu](#-bắt-đầu)
+- [📱 Tổng quan các trang](#-tổng-quan-các-trang)
+- [🎨 Tính năng thiết kế](#-tính-năng-thiết-kế)
+- [📊 Thiết kế responsive](#-thiết-kế-responsive)
+- [🔧 Tùy chỉnh](#-tùy-chỉnh)
+- [📞 Thông tin liên hệ](#-thông-tin-liên-hệ)
+- [📄 Giấy phép](#-giấy-phép)
 
 ---
 
-## 🛠️ Technologies Used
+## ✨ Tính năng
 
-### Frontend Technologies
-- **HTML5** - Semantic markup and modern web standards
-- **CSS3** - Advanced styling with Flexbox, Grid, and animations
-- **JavaScript (ES6+)** - Interactive functionality and dynamic content
-- **Font Awesome** - Professional icon library
-- **Google Fonts** - Custom typography (Poppins, Playfair Display)
+### 🌟 Tính năng chính
+- **Thiết kế Responsive** - Hoạt động hoàn hảo trên desktop, tablet và mobile
+- **UI/UX hiện đại** - Thiết kế sạch sẽ, chuyên nghiệp với animation mượt mà
+- **Điều hướng đa trang** - Nội dung được tổ chức trên nhiều trang khác nhau
+- **Yếu tố tương tác** - Hiệu ứng hover, cuộn mượt và nội dung động
+- **Form liên hệ** - Form liên hệ có chức năng với validation
+- **Tích hợp mạng xã hội** - Liên kết đến GitHub, Facebook, Email và YouTube
 
-### Design Framework
-- **CSS Grid & Flexbox** - Modern layout systems
-- **CSS Variables** - Consistent theming and easy customization
-- **Media Queries** - Responsive breakpoints for all devices
-- **Smooth Animations** - CSS transitions and keyframe animations
+### 🎯 Phần chuyên nghiệp
+- **Giới thiệu cá nhân** - Phần hero với tổng quan chuyên nghiệp
+- **Showcase kỹ năng** - Thanh kỹ năng tương tác và danh mục công nghệ
+- **Portfolio dự án** - Card dự án chi tiết với demo trực tiếp và mã nguồn
+- **Timeline sự nghiệp** - Hành trình và cột mốc chuyên nghiệp
+- **Sở thích cá nhân** - Thú vị và cái nhìn về cuộc sống cá nhân
+- **Thông tin liên hệ** - Nhiều cách để liên lạc
 
 ---
 
-## 📁 Project Structure
+## 🛠️ Công nghệ sử dụng
+
+### Công nghệ Frontend
+- **HTML5** - Markup ngữ nghĩa và tiêu chuẩn web hiện đại
+- **CSS3** - Styling nâng cao với Flexbox, Grid và animations
+- **JavaScript (ES6+)** - Chức năng tương tác và nội dung động
+- **Font Awesome** - Thư viện icon chuyên nghiệp
+- **Google Fonts** - Typography tùy chỉnh (Poppins, Playfair Display)
+
+### Framework thiết kế
+- **CSS Grid & Flexbox** - Hệ thống layout hiện đại
+- **CSS Variables** - Theming nhất quán và dễ tùy chỉnh
+- **Media Queries** - Breakpoint responsive cho mọi thiết bị
+- **Smooth Animations** - CSS transitions và keyframe animations
+
+---
+
+## 📁 Cấu trúc dự án
 
 ```
 profile-web/
 ├── frontend/
-│   ├── index.html          # 🏠 Homepage
-│   ├── info.html           # ℹ️ Detailed personal information
-│   ├── skills.html         # 💪 Skills and technologies
-│   ├── projects.html       # 🔨 Project portfolio
-│   ├── contact.html        # 📞 Contact information
-│   ├── style.css          # 🎨 Main stylesheet
-│   ├── avt.jpg            # 👤 Profile image
-│   ├── đầu đỏ.jpg         # 👤 Additional profile image
-│   └── assets/            # 📂 Additional assets
-│       ├── images/        # 🖼️ Project images
-│       └── icons/         # 🎯 Custom icons
-├── README.md              # 📖 Project documentation
-└── .gitignore            # 🚫 Git ignore rules
+│   ├── index.html          # 🏠 Trang chủ
+│   ├── info.html           # ℹ️ Thông tin cá nhân chi tiết
+│   ├── skills.html         # 💪 Kỹ năng và công nghệ
+│   ├── projects.html       # 🔨 Portfolio dự án
+│   ├── contact.html        # 📞 Thông tin liên hệ
+│   ├── style.css          # 🎨 Stylesheet chính
+│   ├── avt.jpg            # 👤 Ảnh profile
+│   ├── đầu đỏ.jpg         # 👤 Ảnh profile bổ sung
+│   └── assets/            # 📂 Tài nguyên bổ sung
+│       ├── images/        # 🖼️ Hình ảnh dự án
+│       └── icons/         # 🎯 Icon tùy chỉnh
+├── README.md              # 📖 Tài liệu dự án
+└── .gitignore            # 🚫 Quy tắc Git ignore
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Bắt đầu
 
-### Prerequisites
-- Web browser (Chrome, Firefox, Safari, Edge)
-- Text editor (VS Code, Sublime Text, etc.)
-- Basic knowledge of HTML/CSS/JavaScript
+### Yêu cầu tiên quyết
+- Trình duyệt web (Chrome, Firefox, Safari, Edge)
+- Trình chỉnh sửa văn bản (VS Code, Sublime Text, v.v.)
+- Kiến thức cơ bản về HTML/CSS/JavaScript
 
-### Installation
+### Cài đặt
 
-1. **Clone the repository**
+1. **Clone repository**
    ```bash
    git clone https://github.com/hoangle2302/profile-web.git
    cd profile-web
    ```
 
-2. **Navigate to frontend directory**
+2. **Điều hướng đến thư mục frontend**
    ```bash
    cd frontend
    ```
 
-3. **Open in browser**
-   - Double-click `index.html` or
-   - Right-click and "Open with" your preferred browser or
-   - Use Live Server extension in VS Code
+3. **Mở trong trình duyệt**
+   - Double-click `index.html` hoặc
+   - Click chuột phải và "Mở bằng" trình duyệt ưa thích hoặc
+   - Sử dụng Live Server extension trong VS Code
 
-### Local Development
+### Phát triển local
 ```bash
-# If using VS Code with Live Server extension
+# Nếu sử dụng VS Code với Live Server extension
 code .
-# Then right-click on index.html and select "Open with Live Server"
+# Sau đó click chuột phải vào index.html và chọn "Open with Live Server"
 ```
 
 ---
 
-## 📱 Pages Overview
+## 📱 Tổng quan các trang
 
-### 🏠 Homepage (`index.html`)
-- **Hero Section** - Personal introduction and call-to-action
-- **About Section** - Professional overview and statistics
-- **Skills Preview** - Technology stack and expertise levels
-- **Featured Projects** - Highlighted work samples
-- **Contact Section** - Contact form and information
+### 🏠 Trang chủ (`index.html`)
+- **Phần Hero** - Giới thiệu cá nhân và call-to-action
+- **Phần Về tôi** - Tổng quan chuyên nghiệp và thống kê
+- **Xem trước Kỹ năng** - Stack công nghệ và mức độ chuyên môn
+- **Dự án nổi bật** - Mẫu công việc được đánh dấu
+- **Phần Liên hệ** - Form liên hệ và thông tin
 
-### ℹ️ Info Page (`info.html`)
-- **Personal Introduction** - Detailed background story
-- **Personal Information** - Education, experience, and skills
-- **Hobbies & Interests** - Personal life and interests
-- **Career Timeline** - Professional development journey
+### ℹ️ Trang thông tin (`info.html`)
+- **Giới thiệu cá nhân** - Câu chuyện nền tảng chi tiết
+- **Thông tin cá nhân** - Học vấn, kinh nghiệm và kỹ năng
+- **Sở thích & Thú vị** - Cuộc sống cá nhân và sở thích
+- **Timeline sự nghiệp** - Hành trình phát triển chuyên nghiệp
 
-### 💪 Skills Page (`skills.html`)
-- **Technical Skills** - Programming languages and frameworks
-- **Tools & Technologies** - Development tools and platforms
-- **Skill Levels** - Visual representation of proficiency
-- **Certifications** - Professional certifications and achievements
+### 💪 Trang kỹ năng (`skills.html`)
+- **Kỹ năng kỹ thuật** - Ngôn ngữ lập trình và framework
+- **Công cụ & Công nghệ** - Công cụ phát triển và nền tảng
+- **Mức độ kỹ năng** - Biểu diễn trực quan về năng lực
+- **Chứng chỉ** - Chứng chỉ chuyên nghiệp và thành tích
 
-### 🔨 Projects Page (`projects.html`)
-- **Project Showcase** - Detailed project presentations
-- **Technology Stack** - Technologies used in each project
-- **Live Demos** - Links to working applications
-- **Source Code** - GitHub repository links
+### 🔨 Trang dự án (`projects.html`)
+- **Showcase dự án** - Bản trình bày dự án chi tiết
+- **Stack công nghệ** - Công nghệ được sử dụng trong từng dự án
+- **Demo trực tiếp** - Liên kết đến ứng dụng hoạt động
+- **Mã nguồn** - Liên kết GitHub repository
 
-### 📞 Contact Page (`contact.html`)
-- **Contact Form** - Direct messaging capability
-- **Contact Information** - Phone, email, and location
-- **Social Media** - Professional social network links
-- **FAQ Section** - Frequently asked questions
+### 📞 Trang liên hệ (`contact.html`)
+- **Form liên hệ** - Khả năng nhắn tin trực tiếp
+- **Thông tin liên hệ** - Điện thoại, email và địa chỉ
+- **Mạng xã hội** - Liên kết mạng xã hội chuyên nghiệp
+- **Phần FAQ** - Câu hỏi thường gặp
 
 ---
 
-## 🎨 Design Features
+## 🎨 Tính năng thiết kế
 
-### Color Scheme
+### Bảng màu
 ```css
 :root {
-  --primary-color: #0d9488;      /* Teal Green */
-  --secondary-color: #14b8a6;    /* Light Teal */
-  --accent-color: #06b6d4;       /* Sky Blue */
-  --bg-primary: #ffffff;         /* White */
-  --bg-secondary: #f0fdfa;       /* Light Mint */
-  --text-primary: #134e4a;       /* Dark Teal */
-  --text-secondary: #0f766e;     /* Medium Teal */
+  --primary-color: #0d9488;      /* Xanh lá teal */
+  --secondary-color: #14b8a6;    /* Teal nhạt */
+  --accent-color: #06b6d4;       /* Xanh da trời */
+  --bg-primary: #ffffff;         /* Trắng */
+  --bg-secondary: #f0fdfa;       /* Bạc hà nhạt */
+  --text-primary: #134e4a;       /* Teal đậm */
+  --text-secondary: #0f766e;     /* Teal vừa */
 }
 ```
 
 ### Typography
-- **Primary Font**: Poppins (Modern, clean sans-serif)
-- **Heading Font**: Playfair Display (Elegant serif for titles)
-- **Font Weights**: 300, 400, 500, 600, 700
+- **Font chính**: Poppins (Sans-serif hiện đại, sạch sẽ)
+- **Font tiêu đề**: Playfair Display (Serif thanh lịch cho titles)
+- **Font weights**: 300, 400, 500, 600, 700
 
 ### UI Components
-- **Gradient Buttons** - Eye-catching call-to-action elements
-- **Card Layouts** - Clean, organized content presentation
-- **Progress Bars** - Visual skill level indicators
-- **Hover Effects** - Interactive feedback on all clickable elements
-- **Smooth Transitions** - Professional animations throughout
+- **Gradient Buttons** - Yếu tố call-to-action bắt mắt
+- **Card Layouts** - Bản trình bày nội dung sạch sẽ, có tổ chức
+- **Progress Bars** - Chỉ báo mức độ kỹ năng trực quan
+- **Hover Effects** - Phản hồi tương tác trên tất cả yếu tố có thể click
+- **Smooth Transitions** - Animation chuyên nghiệp xuyên suốt
 
 ---
 
-## 📊 Responsive Design
+## 📊 Thiết kế Responsive
 
 ### Breakpoints
-- **Desktop**: 1200px+ (Full layout with sidebar)
-- **Laptop**: 992px - 1199px (Adjusted spacing)
-- **Tablet**: 768px - 991px (Stacked navigation)
-- **Mobile**: < 768px (Mobile-first approach)
+- **Desktop**: 1200px+ (Layout đầy đủ với sidebar)
+- **Laptop**: 992px - 1199px (Khoảng cách điều chỉnh)
+- **Tablet**: 768px - 991px (Navigation xếp chồng)
+- **Mobile**: < 768px (Tiếp cận mobile-first)
 
-### Mobile Features
-- **Hamburger Menu** - Collapsible navigation
-- **Touch-Optimized** - Larger tap targets
-- **Optimized Images** - Faster loading on mobile
-- **Readable Typography** - Scaled fonts for mobile screens
+### Tính năng Mobile
+- **Hamburger Menu** - Navigation có thể thu gọn
+- **Tối ưu Touch** - Mục tiêu tap lớn hơn
+- **Hình ảnh tối ưu** - Tải nhanh hơn trên mobile
+- **Typography dễ đọc** - Font được scale cho màn hình mobile
 
 ---
 
-## 🔧 Customization
+## 🔧 Tùy chỉnh
 
-### Updating Personal Information
+### Cập nhật thông tin cá nhân
 
-1. **Profile Images**
-   - Replace `avt.jpg` and `đầu đỏ.jpg` with your photos
-   - Recommended size: 400x400px for profile images
+1. **Hình ảnh Profile**
+   - Thay thế `avt.jpg` và `đầu đỏ.jpg` bằng ảnh của bạn
+   - Kích thước khuyến nghị: 400x400px cho hình profile
 
-2. **Personal Content**
+2. **Nội dung cá nhân**
    ```html
-   <!-- Update in index.html -->
+   <!-- Cập nhật trong index.html -->
    <h1 class="hero-title">
      Xin chào, tôi là <br>
-     <span class="text-gradient">Your Name Here</span>
+     <span class="text-gradient">Tên của bạn</span>
    </h1>
    ```
 
-3. **Contact Information**
+3. **Thông tin liên hệ**
    ```html
-   <!-- Update social media links -->
-   <a href="https://github.com/yourusername" class="social-link">
-   <a href="mailto:youremail@domain.com" class="social-link">
+   <!-- Cập nhật liên kết mạng xã hội -->
+   <a href="https://github.com/username-cua-ban" class="social-link">
+   <a href="mailto:email-cua-ban@domain.com" class="social-link">
    ```
 
-4. **Skills and Projects**
-   - Update skill percentages in the progress bars
-   - Replace project images and descriptions
-   - Update GitHub repository links
+4. **Kỹ năng và Dự án**
+   - Cập nhật phần trăm kỹ năng trong progress bars
+   - Thay thế hình ảnh và mô tả dự án
+   - Cập nhật liên kết GitHub repository
 
-### Color Customization
+### Tùy chỉnh màu sắc
 ```css
-/* Update CSS variables in style.css */
+/* Cập nhật CSS variables trong style.css */
 :root {
-  --primary-color: #your-color;
-  --secondary-color: #your-color;
-  /* Add more custom colors */
+  --primary-color: #mau-cua-ban;
+  --secondary-color: #mau-cua-ban;
+  /* Thêm màu tùy chỉnh khác */
 }
 ```
 
 ---
 
-## 🎯 Key Projects Showcased
+## 🎯 Dự án chính được showcase
 
 ### 🔍 Mắt Thần - AI Traffic Monitor
-- **Technology**: Python, YOLO, OpenCV
-- **Description**: AI system for real-time traffic violation detection
-- **Features**: Deep learning, Computer Vision, Real-time processing
+- **Công nghệ**: Python, YOLO, OpenCV
+- **Mô tả**: Hệ thống AI phát hiện vi phạm giao thông thời gian thực
+- **Tính năng**: Deep learning, Computer Vision, Xử lý thời gian thực
 
 ### 🐎 Horse Racing Game  
-- **Technology**: Python, Pygame, PyQt6
-- **Description**: Multiplayer online horse racing game
-- **Features**: Beautiful graphics, Multiplayer support, Game logic
+- **Công nghệ**: Python, Pygame, PyQt6
+- **Mô tả**: Game đua ngựa online multiplayer
+- **Tính năng**: Đồ họa đẹp, Hỗ trợ multiplayer, Logic game
 
 ### 🔒 Cybersecurity Toolkit
-- **Technology**: Python, Security Libraries
-- **Description**: Comprehensive security tool suite
-- **Features**: Network scanning, Vulnerability assessment
+- **Công nghệ**: Python, Security Libraries
+- **Mô tả**: Bộ công cụ bảo mật tổng hợp
+- **Tính năng**: Quét mạng, Đánh giá lỗ hổng bảo mật
 
 ---
 
-## 📈 Performance Features
+## 📈 Tính năng Performance
 
-### Optimization
-- **Lazy Loading** - Images load as needed
-- **Minified CSS** - Compressed stylesheets
-- **Optimized Images** - WebP format support
-- **Caching Strategy** - Browser caching headers
+### Tối ưu hóa
+- **Lazy Loading** - Hình ảnh tải khi cần thiết
+- **Minified CSS** - Stylesheet được nén
+- **Hình ảnh tối ưu** - Hỗ trợ định dạng WebP
+- **Chiến lược Caching** - Header caching của trình duyệt
 
-### SEO Friendly
-- **Semantic HTML** - Proper heading structure
-- **Meta Tags** - Optimized for search engines
-- **Alt Text** - Accessible image descriptions
-- **Structured Data** - Rich snippets support
-
----
-
-## 🔒 Browser Compatibility
-
-| Browser | Version | Support |
-|---------|---------|---------|
-| Chrome  | 70+     | ✅ Full |
-| Firefox | 65+     | ✅ Full |
-| Safari  | 12+     | ✅ Full |
-| Edge    | 79+     | ✅ Full |
-| Opera   | 57+     | ✅ Full |
+### Thân thiện SEO
+- **Semantic HTML** - Cấu trúc heading phù hợp
+- **Meta Tags** - Tối ưu cho công cụ tìm kiếm
+- **Alt Text** - Mô tả hình ảnh accessible
+- **Structured Data** - Hỗ trợ rich snippets
 
 ---
 
-## 📞 Contact Information
+## 🔒 Tương thích trình duyệt
 
-### 👨‍💻 Developer
+| Trình duyệt | Phiên bản | Hỗ trợ |
+|-------------|-----------|---------|
+| Chrome      | 70+       | ✅ Đầy đủ |
+| Firefox     | 65+       | ✅ Đầy đủ |
+| Safari      | 12+       | ✅ Đầy đủ |
+| Edge        | 79+       | ✅ Đầy đủ |
+| Opera       | 57+       | ✅ Đầy đủ |
+
+---
+
+## 📞 Thông tin liên hệ
+
+### 👨‍💻 Nhà phát triển
 **Lê Huy Hoàng**
-- 🎯 **Role**: Developer & AI Researcher
+- 🎯 **Vai trò**: Developer & AI Researcher
 - 📧 **Email**: lehuyhoang840@gmail.com
 - 🌐 **GitHub**: [@hoangle2302](https://github.com/hoangle2302)
 - 📘 **Facebook**: [@hng.le2](https://www.facebook.com/hng.le2/)
 - 📺 **YouTube**: [@lehuyhoang2302](https://www.youtube.com/@lehuyhoang2302)
 
-### 💼 Professional Focus
+### 💼 Chuyên môn
 - **AI & Machine Learning** - Computer Vision, Deep Learning
-- **Web Development** - Full-stack development with modern frameworks
-- **Cybersecurity** - Security tools and vulnerability assessment
-- **Software Engineering** - Clean code, best practices, and scalable solutions
+- **Web Development** - Phát triển full-stack với framework hiện đại
+- **Cybersecurity** - Công cụ bảo mật và đánh giá lỗ hổng
+- **Software Engineering** - Code sạch, best practices và giải pháp có thể mở rộng
 
 ---
 
-## 🤝 Contributing
+## 🤝 Đóng góp
 
-Contributions, issues, and feature requests are welcome!
+Rất hoan nghênh các đóng góp, vấn đề và yêu cầu tính năng!
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. Fork dự án
+2. Tạo feature branch của bạn (`git checkout -b feature/TinhNangTuyetVoi`)
+3. Commit thay đổi của bạn (`git commit -m 'Thêm TinhNangTuyetVoi'`)
+4. Push lên branch (`git push origin feature/TinhNangTuyetVoi`)
+5. Mở Pull Request
 
 ---
 
-## 🙏 Acknowledgments
+## 📄 Giấy phép
 
-- **Font Awesome** - For the beautiful icons
-- **Google Fonts** - For the typography
-- **Unsplash** - For placeholder images
-- **Inspiration** - Modern portfolio design trends
+Dự án này được cấp phép theo Giấy phép MIT - xem file [LICENSE](LICENSE) để biết chi tiết.
+
+---
+
+## 🙏 Lời cảm ơn
+
+- **Font Awesome** - Cho những icon đẹp
+- **Google Fonts** - Cho typography
+- **Unsplash** - Cho hình ảnh placeholder
+- **Inspiration** - Xu hướng thiết kế portfolio hiện đại
 
 ---
 
 <div align="center">
-  <h3>⭐ Star this repository if you found it helpful!</h3>
-  <p>Made with ❤️ by <a href="https://github.com/hoangle2302">Lê Huy Hoàng</a></p>
-  <p><strong>2025 © All rights reserved</strong></p>
+  <h3>⭐ Star repository này nếu bạn thấy hữu ích!</h3>
+  <p>Được tạo với ❤️ bởi <a href="https://github.com/hoangle2302">Lê Huy Hoàng</a></p>
+  <p><strong>2025 © Bảo lưu mọi quyền</strong></p>
 </div>
