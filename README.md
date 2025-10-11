@@ -290,10 +290,14 @@ code .
 - **Mô tả**: Game đua ngựa online multiplayer
 - **Tính năng**: Đồ họa đẹp, Hỗ trợ multiplayer, Logic game
 
-### 🔒 Cybersecurity Toolkit
-- **Công nghệ**: Python, Security Libraries
-- **Mô tả**: Bộ công cụ bảo mật tổng hợp
-- **Tính năng**: Quét mạng, Đánh giá lỗ hổng bảo mật
+### 🔒 AI Chatbot
+- **Công nghệ**: Php, HTML, CSS.
+- **Mô tả**: Chatbot AI giao tiếp tự động với người dùng, hỗ trợ phản hồi thông minh.
+- **Tính năng**: 
+               - Giao tiếp tự nhiên với người dùng bằng ngôn ngữ tiếng Việt.  
+               - Tích hợp API mô hình AI (OpenAI hoặc tương tự).  
+               - Giao diện web thân thiện, dễ sử dụng.  
+               - Lưu lại lịch sử trò chuyện.  
 
 ---
 
