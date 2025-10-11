@@ -4,65 +4,75 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Responsive-Mobile--First-blue?style=for-the-badge" alt="Responsive">
+  <img src="https://img.shields.io/badge/Responsive-Mobile--First-14b8a6?style=for-the-badge" alt="Responsive">
+  <img src="https://img.shields.io/badge/Modern-UI/UX-06b6d4?style=for-the-badge" alt="Modern UI/UX">
 </div>
 
 <div align="center">
-  <h3>🎯 Portfolio Developer & AI Researcher</h3>
-  <p>Website portfolio hiện đại, responsive thể hiện kỹ năng, dự án và hành trình chuyên nghiệp trong lĩnh vực công nghệ và phát triển AI.</p>
+  <h3>🎯 Portfolio Nhà Phát Triển & Nghiên Cứu AI</h3>
+  <p>Website portfolio hiện đại với thiết kế responsive, thể hiện kỹ năng, dự án và hành trình chuyên nghiệp trong lĩnh vực phát triển AI và công nghệ.</p>
 </div>
 
 ---
 
 ## 📋 Mục lục
 
-- [✨ Tính năng](#-tính-năng)
+- [✨ Tính năng nổi bật](#-tính-năng-nổi-bật)
 - [🛠️ Công nghệ sử dụng](#️-công-nghệ-sử-dụng)
 - [📁 Cấu trúc dự án](#-cấu-trúc-dự-án)
-- [🚀 Bắt đầu](#-bắt-đầu)
-- [📱 Tổng quan các trang](#-tổng-quan-các-trang)
-- [🎨 Tính năng thiết kế](#-tính-năng-thiết-kế)
-- [📊 Thiết kế responsive](#-thiết-kế-responsive)
-- [🔧 Tùy chỉnh](#-tùy-chỉnh)
+- [🚀 Hướng dẫn bắt đầu](#-hướng-dẫn-bắt-đầu)
+- [📱 Chi tiết các trang](#-chi-tiết-các-trang)
+- [🎨 Hệ thống thiết kế](#-hệ-thống-thiết-kế)
+- [📊 Thiết kế Responsive](#-thiết-kế-responsive)
+- [⚡ Hiệu năng & SEO](#-hiệu-năng--seo)
+- [🔧 Hướng dẫn tùy chỉnh](#-hướng-dẫn-tùy-chỉnh)
+- [🎯 Dự án showcase](#-dự-án-showcase)
 - [📞 Thông tin liên hệ](#-thông-tin-liên-hệ)
 - [📄 Giấy phép](#-giấy-phép)
 
 ---
 
-## ✨ Tính năng
+## ✨ Tính năng nổi bật
 
 ### 🌟 Tính năng chính
-- **Thiết kế Responsive** - Hoạt động hoàn hảo trên desktop, tablet và mobile
-- **UI/UX hiện đại** - Thiết kế sạch sẽ, chuyên nghiệp với animation mượt mà
-- **Điều hướng đa trang** - Nội dung được tổ chức trên nhiều trang khác nhau
-- **Yếu tố tương tác** - Hiệu ứng hover, cuộn mượt và nội dung động
-- **Form liên hệ** - Form liên hệ có chức năng với validation
-- **Tích hợp mạng xã hội** - Liên kết đến GitHub, Facebook, Email và YouTube
+- **🎨 Giao diện hiện đại** - Thiết kế sạch sẽ, chuyên nghiệp với hiệu ứng mượt mà
+- **📱 Hoàn toàn Responsive** - Hoạt động hoàn hảo trên máy tính, tablet và điện thoại
+- **🔄 Điều hướng đa trang** - 5 trang chính với breadcrumb navigation 
+- **✨ Yếu tố tương tác** - Hiệu ứng hover, animation cuộn và nội dung động
+- **📬 Tích hợp liên hệ** - Form liên hệ hoạt động với xác thực
+- **🔗 Liên kết mạng xã hội** - Tích hợp với GitHub, Facebook, Email, YouTube
 
 ### 🎯 Phần chuyên nghiệp
-- **Giới thiệu cá nhân** - Phần hero với tổng quan chuyên nghiệp
-- **Showcase kỹ năng** - Thanh kỹ năng tương tác và danh mục công nghệ
-- **Portfolio dự án** - Card dự án chi tiết với demo trực tiếp và mã nguồn
-- **Timeline sự nghiệp** - Hành trình và cột mốc chuyên nghiệp
-- **Sở thích cá nhân** - Thú vị và cái nhìn về cuộc sống cá nhân
-- **Thông tin liên hệ** - Nhiều cách để liên lạc
+- **👋 Giới thiệu Hero** - Landing bắt mắt với tổng quan chuyên nghiệp
+- **💼 Về tôi** - Câu chuyện cá nhân chi tiết với showcase sở thích
+- **🛠️ Portfolio kỹ năng** - Thanh kỹ năng tương tác và biểu tượng stack công nghệ
+- **📁 Showcase dự án** - Thẻ dự án chi tiết với demo trực tiếp và liên kết source
+- **📈 Timeline nghề nghiệp** - Hành trình và thành tựu chuyên nghiệp
+- **🎯 Kỹ năng mềm** - Trình bày nâng cao với chỉ báo tiến độ
+- **📞 Trung tâm liên hệ** - Nhiều phương thức liên hệ và thông tin
 
 ---
 
 ## 🛠️ Công nghệ sử dụng
 
 ### Công nghệ Frontend
-- **HTML5** - Markup ngữ nghĩa và tiêu chuẩn web hiện đại
-- **CSS3** - Styling nâng cao với Flexbox, Grid và animations
+- **HTML5** - Semantic markup với tiêu chuẩn web hiện đại
+- **CSS3** - Styling nâng cao với Flexbox, Grid, Variables và Animations
 - **JavaScript (ES6+)** - Chức năng tương tác và nội dung động
-- **Font Awesome** - Thư viện icon chuyên nghiệp
-- **Google Fonts** - Typography tùy chỉnh (Poppins, Playfair Display)
+- **Font Awesome 6.4.0** - Thư viện icon chuyên nghiệp
+- **Google Fonts** - Typography tùy chỉnh (Poppins + Playfair Display)
 
 ### Framework thiết kế
 - **CSS Grid & Flexbox** - Hệ thống layout hiện đại
-- **CSS Variables** - Theming nhất quán và dễ tùy chỉnh
-- **Media Queries** - Breakpoint responsive cho mọi thiết bị
-- **Smooth Animations** - CSS transitions và keyframe animations
+- **CSS Custom Properties** - Theming nhất quán và dễ tùy chỉnh
+- **Breakpoint Responsive** - Tiếp cận mobile-first
+- **Hiệu ứng mượt mà** - CSS transitions, keyframes và Intersection Observer API
+
+### Công cụ phát triển
+- **Live Server** - Server phát triển cho preview thời gian thực
+- **VS Code Extensions** - Trải nghiệm phát triển nâng cao
+- **Git Version Control** - Quản lý mã nguồn
+- **Browser DevTools** - Kiểm tra đa trình duyệt và tối ưu hóa
 
 ---
 
@@ -76,19 +86,28 @@ profile-web/
 │   ├── skills.html         # 💪 Kỹ năng và công nghệ
 │   ├── projects.html       # 🔨 Portfolio dự án
 │   ├── contact.html        # 📞 Thông tin liên hệ
-│   ├── style.css          # 🎨 Stylesheet chính
-│   ├── avt.jpg            # 👤 Ảnh profile
-│   ├── đầu đỏ.jpg         # 👤 Ảnh profile bổ sung
-│   └── assets/            # 📂 Tài nguyên bổ sung
-│       ├── images/        # 🖼️ Hình ảnh dự án
-│       └── icons/         # 🎯 Icon tùy chỉnh
-├── README.md              # 📖 Tài liệu dự án
-└── .gitignore            # 🚫 Quy tắc Git ignore
+│   └──style.css            # 🎨 Stylesheet chính
+├── pics/                   # 👤 Thư mục ảnh dự án
+│   ├── image1.jgp          # 👤 Ảnh profile 
+│   ├── image2.jgp          # 🖼️ Hình ảnh dự án
+│   ├── image3.jgp          # 🖼️ Hình ảnh dự án
+│   ├── image4.jgp          # 🖼️ Hình ảnh dự án
+│   ├── image5.jgp          # 🖼️ Hình ảnh dự án
+│   ├── image6.jgp          # 🖼️ Hình ảnh dự án
+│   ├── image7.jgp          # 🖼️ Hình ảnh dự án
+│   ├── image8.jgp          # 🖼️ Hình ảnh dự án
+│   ├── image9.jgp          # 🖼️ Hình ảnh dự án
+│   ├── image10.jgp         # 🖼️ Hình ảnh dự án
+│   ├── image11.jgp         # 🖼️ Hình ảnh dự án
+│   ├── image12.jgp         # 🖼️ Hình ảnh dự án
+│   └── image13.jgp         # 🖼️ Hình ảnh dự án
+└──  README.md              # 📖 Tài liệu dự án
+
 ```
 
 ---
 
-## 🚀 Bắt đầu
+## 🚀 Hướng dẫn bắt đầu
 
 ### Yêu cầu tiên quyết
 - Trình duyệt web (Chrome, Firefox, Safari, Edge)
@@ -122,7 +141,7 @@ code .
 
 ---
 
-## 📱 Tổng quan các trang
+## 📱 Chi tiết các trang
 
 ### 🏠 Trang chủ (`index.html`)
 - **Phần Hero** - Giới thiệu cá nhân và call-to-action
@@ -157,7 +176,7 @@ code .
 
 ---
 
-## 🎨 Tính năng thiết kế
+## 🎨 Hệ thống thiết kế
 
 ### Bảng màu
 ```css
@@ -202,12 +221,28 @@ code .
 
 ---
 
-## 🔧 Tùy chỉnh
+## ⚡ Hiệu năng & SEO
+
+### Tối ưu hóa
+- **Lazy Loading** - Hình ảnh tải khi cần thiết
+- **Minified CSS** - Stylesheet được nén
+- **Hình ảnh tối ưu** - Hỗ trợ định dạng WebP
+- **Chiến lược Caching** - Header caching của trình duyệt
+
+### Thân thiện SEO
+- **Semantic HTML** - Cấu trúc heading phù hợp
+- **Meta Tags** - Tối ưu cho công cụ tìm kiếm
+- **Alt Text** - Mô tả hình ảnh accessible
+- **Structured Data** - Hỗ trợ rich snippets
+
+---
+
+## 🔧 Hướng dẫn tùy chỉnh
 
 ### Cập nhật thông tin cá nhân
 
 1. **Hình ảnh Profile**
-   - Thay thế `avt.jpg` và `đầu đỏ.jpg` bằng ảnh của bạn
+   - Thay thế `image1.jpg` và `image2.jpg` bằng ảnh của bạn
    - Kích thước khuyến nghị: 400x400px cho hình profile
 
 2. **Nội dung cá nhân**
@@ -259,34 +294,6 @@ code .
 - **Công nghệ**: Python, Security Libraries
 - **Mô tả**: Bộ công cụ bảo mật tổng hợp
 - **Tính năng**: Quét mạng, Đánh giá lỗ hổng bảo mật
-
----
-
-## 📈 Tính năng Performance
-
-### Tối ưu hóa
-- **Lazy Loading** - Hình ảnh tải khi cần thiết
-- **Minified CSS** - Stylesheet được nén
-- **Hình ảnh tối ưu** - Hỗ trợ định dạng WebP
-- **Chiến lược Caching** - Header caching của trình duyệt
-
-### Thân thiện SEO
-- **Semantic HTML** - Cấu trúc heading phù hợp
-- **Meta Tags** - Tối ưu cho công cụ tìm kiếm
-- **Alt Text** - Mô tả hình ảnh accessible
-- **Structured Data** - Hỗ trợ rich snippets
-
----
-
-## 🔒 Tương thích trình duyệt
-
-| Trình duyệt | Phiên bản | Hỗ trợ |
-|-------------|-----------|---------|
-| Chrome      | 70+       | ✅ Đầy đủ |
-| Firefox     | 65+       | ✅ Đầy đủ |
-| Safari      | 12+       | ✅ Đầy đủ |
-| Edge        | 79+       | ✅ Đầy đủ |
-| Opera       | 57+       | ✅ Đầy đủ |
 
 ---
 
