@@ -692,10 +692,6 @@ section {
   transform: translateY(-2px);
 }
 
-.social-link i {
-  font-size: 1.2rem;
-}
-
 /* Enhanced Contact Form */
 .contact-form-container {
   background: var(--bg-secondary);
@@ -1609,53 +1605,68 @@ section {
   .hamburger {
     display: flex;
   }
-  
+
   .nav-menu {
     position: fixed;
     left: -100%;
     top: 70px;
     flex-direction: column;
     background: var(--primary-color);
-    width: 100%;
+    width: 100vw;
+    min-height: calc(100vh - 70px);
     text-align: center;
-    transition: 0.3s;
+    transition: left 0.3s;
     padding: 2rem 0;
     box-shadow: var(--shadow-medium);
+    z-index: 9999;
+    gap: 2rem;
   }
-  
+
   .nav-menu.active {
     left: 0;
+    display: flex;
+    background: var(--primary-color) !important;
   }
-  
+
+  .nav-menu.active a {
+    color: #fff !important;
+    background: transparent !important;
+    text-shadow: none;
+  }
+
+  .nav-menu li {
+    margin: 1.2rem 0;
+  }
+
   .hero-content {
     grid-template-columns: 1fr;
     text-align: center;
   }
-  
+
   .about-content {
     grid-template-columns: 1fr;
   }
-  
+
   .contact-content {
     grid-template-columns: 1fr;
   }
-  
+
   .hero-buttons {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
   }
-  
+
   .btn {
     width: 100%;
     max-width: 300px;
   }
-  
+
   .projects-grid,
   .skills-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .image-container {
     width: 300px;
     height: 300px;
@@ -1664,26 +1675,26 @@ section {
   .timeline::before {
     left: 30px;
   }
-  
+
   .timeline-item {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 80px;
   }
-  
+
   .timeline-item:nth-child(even) {
     flex-direction: column;
   }
-  
+
   .timeline-content {
     margin: 1rem 0;
     width: 100%;
   }
-  
+
   .timeline-content::before {
     display: none;
   }
-  
+
   .timeline-marker {
     position: absolute;
     left: 0;
@@ -1691,23 +1702,23 @@ section {
     height: 50px;
     font-size: 1.2rem;
   }
-  
+
   .info-hero .hero-content {
     grid-template-columns: 1fr;
     text-align: center;
     gap: 3rem;
   }
-  
+
   .info-hero .image-container {
     width: 280px;
     height: 360px;
     margin: 0 auto;
   }
-  
+
   .achievements-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .floating-shapes {
     display: none;
   }
@@ -1717,7 +1728,7 @@ section {
     text-align: center;
     gap: 3rem;
   }
-  
+
   .personal-info-image .image-container {
     width: 280px;
     height: 360px;
@@ -1729,7 +1740,7 @@ section {
     text-align: center;
     gap: 3rem;
   }
-  
+
   .hobbies-image .image-container {
     width: 280px;
     height: 360px;
@@ -1741,15 +1752,15 @@ section {
   .container {
     padding: 0 15px;
   }
-  
+
   .hero-title {
     font-size: 2rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
-  
+
   .nav-container {
     padding: 0 15px;
   }
@@ -1777,11 +1788,11 @@ section {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .contact-icon {
     align-self: center;
   }
-  
+
   .social-link {
     justify-content: center;
   }
@@ -1809,7 +1820,7 @@ section {
   .footer-social .social-link i {
     font-size: 0.9rem;
   }
-  
+
   .personal-info-image .image-container {
     width: 240px;
     height: 310px;
@@ -1818,6 +1829,64 @@ section {
   .hobbies-image .image-container {
     width: 240px;
     height: 310px;
+  }
+}
+
+/* Social links responsive for iPad/tablet */
+.autoinsert-social-links-responsive { display: none; } /* marker for AI */
+
+@media (max-width: 1100px) {
+  .social-links {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1.5rem;
+    justify-items: start;
+    align-items: center;
+  }
+  .social-link {
+    font-size: 1.1rem;
+    padding: 0.6rem 1.1rem;
+    min-width: 140px;
+    justify-content: flex-start;
+  }
+  .footer-social {
+    gap: 0.5rem 1.5rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .footer-social .social-link {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .social-links {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1.5rem;
+    justify-items: stretch;
+    align-items: center;
+  }
+  .social-link {
+    font-size: 1rem;
+    padding: 0.6rem 1.1rem;
+    min-width: 160px;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 800px) {
+  .social-links {
+    grid-template-columns: 1fr;
+    gap: 0.5rem 0;
+    justify-items: start;
+  }
+  .social-link {
+    width: 100%;
+    min-width: unset;
+    justify-content: flex-start;
   }
 }
 
@@ -1834,20 +1903,6 @@ section {
   gap: 4rem;
   align-items: center;
   margin-top: 4rem;
-}
-
-.hobbies-text h3 {
-  font-size: 1.5rem;
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-  font-weight: 500;
-}
-
-.hobbies-text p {
-  font-size: 1.1rem;
-  color: var(--text-secondary);
-  line-height: 1.8;
-  margin-bottom: 1.5rem;
 }
 
 .hobbies-image {
@@ -1891,151 +1946,37 @@ section {
   transform: rotate(45deg);
 }
 
-/* Enhanced hover effects for hobbies */
-#hobbies .achievement-card::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, rgba(13, 148, 136, 0.02) 0%, rgba(20, 184, 166, 0.02) 100%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.hobbies-text h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-weight: 500;
 }
 
-#hobbies .achievement-card:hover::after {
-  opacity: 1;
+.hobbies-text p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
 }
 
-/* Info Content Only Layout */
-.info-content-only {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 4rem;
+/* Responsive for Hobbies Hero */
+@media (max-width: 768px) {
+  .hobbies-hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 3rem;
+  }
+  .hobbies-image .image-container {
+    width: 280px;
+    height: 360px;
+    margin: 0 auto;
+  }
 }
 
-.info-content-only .info-card {
-  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
-  padding: 2rem;
-  border-radius: 20px;
-  border: 1px solid var(--border-color);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  opacity: 0;
-  transform: translateY(40px);
-  box-shadow: 0 8px 25px rgba(13, 148, 136, 0.08);
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-}
-
-.info-content-only .info-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(13, 148, 136, 0.05), transparent);
-  transition: left 0.8s ease;
-}
-
-.info-content-only .info-card:hover::before {
-  left: 100%;
-}
-
-.info-content-only .info-card.animate {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.info-content-only .info-card:hover {
-  transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(13, 148, 136, 0.15);
-  border-color: var(--primary-color);
-}
-
-/* Hobbies Section Specific */
-#hobbies .achievement-card {
-  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
-  border: 2px solid var(--border-color);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-#hobbies .achievement-card:hover {
-  transform: translateY(-15px) scale(1.05);
-  box-shadow: 0 25px 50px rgba(13, 148, 136, 0.2);
-  border-color: var(--primary-color);
-}
-
-#hobbies .achievement-icon {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  box-shadow: 0 10px 30px rgba(13, 148, 136, 0.3);
-  transition: all 0.3s ease;
-}
-
-#hobbies .achievement-card:hover .achievement-icon {
-  transform: scale(1.1) rotate(5deg);
-  box-shadow: 0 15px 40px rgba(13, 148, 136, 0.4);
-}
-
-#hobbies .achievement-year {
-  background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
-  font-size: 0.9rem;
-  padding: 0.5rem 1rem;
-  transition: all 0.3s ease;
-}
-
-#hobbies .achievement-card:hover .achievement-year {
-  transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(13, 148, 136, 0.3);
-}
-
-/* Info Content Only Layout */
-.info-content-only {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 4rem;
-}
-
-.info-content-only .info-card {
-  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
-  padding: 2rem;
-  border-radius: 20px;
-  border: 1px solid var(--border-color);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  opacity: 0;
-  transform: translateY(40px);
-  box-shadow: 0 8px 25px rgba(13, 148, 136, 0.08);
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-}
-
-.info-content-only .info-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(13, 148, 136, 0.05), transparent);
-  transition: left 0.8s ease;
-}
-
-.info-content-only .info-card:hover::before {
-  left: 100%;
-}
-
-.info-content-only .info-card.animate {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.info-content-only .info-card:hover {
-  transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(13, 148, 136, 0.15);
-  border-color: var(--primary-color);
+@media (max-width: 480px) {
+  .hobbies-image .image-container {
+    width: 240px;
+    height: 310px;
+  }
 }
